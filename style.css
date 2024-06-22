@@ -1,0 +1,168 @@
+body {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    text-align: center;
+    width: 100%;
+}
+
+.user-info {
+    text-align: right;
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1.playwrite-is-logo {
+    font-family: 'Playwrite IS', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container form select,
+.container form input[type='text'] {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.container form input[type='submit'] {
+    background-color: #b1afff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container form input[type='submit']:hover {
+    background-color: #9b93ff;
+}
+
+.return-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffe9d0;
+    color: #a0937d;
+    text-decoration: none;
+    border: 2px solid #a0937d;
+    border-radius: 5px;
+    font-weight: bold;
+    transition:
+        background-color 0.3s ease,
+        color 0.3s ease;
+}
+
+.return-button:hover {
+    background-color: #a0937d;
+    color: #ffe9d0;
+}
+
+.menu-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b1afff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #9b93ff;
+}
+
+.track-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input[type='text'],
+.form-group input[type='number'] {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+.submit-button {
+    background-color: #b1afff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #9b93ff;
+}
